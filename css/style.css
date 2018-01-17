@@ -1,15 +1,10 @@
 .table {
-     width: auto;
-     height: auto;
      background-color: black;
      margin-top: 1.5%;
 	 margin-left: 33.3%;
+	 width: 500px;
+	 height: 227px;
    }
-
-tbody {
-	width: 500px;
-	height: 227px;
-}
 
 tr {
     font-family: 'Scada', sans-serif; 
@@ -46,9 +41,9 @@ tr {
     background-color: brown;
 }
 
-.body {
+body {
     background-size: 100%;
-	background: url(/images/epicenter.jpg) no-repeat;
+	background: url(/images/epicenter.jpg);
 }
 
 .dropbtn__ru,
