@@ -43,7 +43,7 @@ tr {
 
 body {
     background-size: 100%;
-	background: url(../images/epicenter.jpg);
+	background-image: url(../images/epicenter.jpg);
 }
 
 .dropbtn__ru,
