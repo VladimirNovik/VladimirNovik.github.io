@@ -1,32 +1,26 @@
 .table {
      background-color: black;
-     margin-top: 1.5%;
-	 margin-left: 33.3%;
+	/* margin-left: 33.3%; */
 	 width: 33.67%;
 	 height: 29.5%;
+	margin-top: 0.2%;
    }
 
 tr {
     font-family: 'Scada', sans-serif; 
     font-size: 1rem;
+
 }
 
 .cells {
     background-color: #242325;
-    width: 100%;
-    font-size: 1rem;
     padding: 0px;
     
 }
 
-.description {
-    background-color: #181818;
-    width: 100%;
-    color: #adadad;
-}
-
 .page__row {
-    width:100%;
+    width: auto;
+	height: auto;
 }
 
 .link {
@@ -42,28 +36,19 @@ tr {
 }
 
 body {
-    background-size: 100%;
+    background-size: auto;
 	background-image: url(../images/epicenter.jpg);
-}
-
-.dropbtn__ru,
-.dropbtn__en {
-    padding: 5px;
-    cursor: default;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
-    display: inline-block;
-    background: #f9f9f9;
-    margin-left: 33.3%;
-    margin-top: 0.5px;
-    border: 2px solid;
+    margin-top: 30px;
+	margin-left: 33.3%;
+	cursor: default;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+/*.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -72,24 +57,41 @@ body {
     margin-left: -2px;
     border: 2px solid;
 }
-
+*/
 .dropbtn__ru
 {
-  background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
-  padding-left: 25px;
-  width: 40px;
-  margin-left: 5px;
+  background: url('../icons/Russia.png') no-repeat left center;
 }
 
+/*http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png*/
 .dropbtn__en
 {
-  background: url('http://www.miru-mir.info/images/en.gif') no-repeat left center;
-  padding-left: 25px;
-  width: 40px;
-  margin-left: 5px;
+  background: url('../icons/United-Kingdom.png') no-repeat left center;
+}
+/*http://www.miru-mir.info/images/en.gif*/
+.dropbtn__ger
+{
+  background: url('../icons/Germany.png') no-repeat left center;
+}
+.flags__link {
+	display: inline-block;
 }
 
-.dropbtn__ru::after,
+.dropbtn__ru,
+.dropbtn__en,
+.dropbtn__ger {
+  width: 24px;
+  height: 18px;
+  text-decoration: none;
+}
+
+.dropbtn__ru:hover,
+.dropbtn__en:hover,
+.dropbtn__ger:hover {
+
+}
+
+/*.dropbtn__ru::after,
 .dropbtn__en::after {
     background: rgba(0, 0, 0, 0) url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;
     content: "";
@@ -99,8 +101,9 @@ body {
     top: 7px;
     width: 16px;
 }
+*/
 
-.dropdown-content a:first-child
+/*.dropdown-content a:first-child
 {
   background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
     margin-left: 5px;
@@ -113,24 +116,24 @@ body {
     margin-left: 5px;
     margin-bottom: 1px;
 }
-
+*/
 /* Links inside the dropdown */
-.dropdown-content a {
+/*.dropdown-content a {
     color: black;
     padding: 2px 0px 2px 25px;
     text-decoration: none;
     display: block;
     width: 40px;
 }
-
+*/
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: white}
-
+/*.dropdown-content a:hover {background-color: white}
+*/
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+/*.dropdown:hover .dropdown-content {
     display: block;
 }
-
+*/
 /* Helpers */
 
 .clearfix:before,
